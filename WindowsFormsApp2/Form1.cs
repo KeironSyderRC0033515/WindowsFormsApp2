@@ -19,7 +19,50 @@ namespace WindowsFormsApp2
 
         private async void button1_Click(object sender, EventArgs e)
         {
+            for (int i = 0; i < 50; i++)
+            {
+                pictureBox1.Location = new Point(pictureBox1.Location.X + 2, pictureBox1.Location.Y - 2);
+                await Task.Delay(20);
+            }
+            for (int i = 0; i < 50; i++)
+            {
+                pictureBox1.Location = new Point(pictureBox1.Location.X + 2, pictureBox1.Location.Y + 2);
+                await Task.Delay(20);
+            }
             for (int i = 0; i < 30; i++)
+            {
+                pictureBox1.Location = new Point(pictureBox1.Location.X + 2, pictureBox1.Location.Y);
+                await Task.Delay(20);
+            }
+            for (int i = 0; i < 50; i++)
+            {
+                pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y - 2);
+                await Task.Delay(20);
+            }
+            for (int i = 0; i < 130; i++)
+            {
+                pictureBox1.Location = new Point(pictureBox1.Location.X - 2, pictureBox1.Location.Y);
+                await Task.Delay(20);
+            }
+            for (int i = 0; i < 50; i++)
+            {
+                pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y + 2);
+                await Task.Delay(20);
+            }
+
+
+
+
+
+
+
+
+
+            }
+
+        private async void button2_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 50; i++)
             {
                 pictureBox1.Location = new Point(pictureBox1.Location.X + 2, pictureBox1.Location.Y);
                 await Task.Delay(20);
@@ -29,7 +72,7 @@ namespace WindowsFormsApp2
                 pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y + 2);
                 await Task.Delay(20);
             }
-            for (int i = 0; i < 30; i++)
+            for (int i = 0; i < 50; i++)
             {
                 pictureBox1.Location = new Point(pictureBox1.Location.X - 2, pictureBox1.Location.Y);
                 await Task.Delay(20);
@@ -37,6 +80,29 @@ namespace WindowsFormsApp2
             for (int i = 0; i < 50; i++)
             {
                 pictureBox1.Location = new Point(pictureBox1.Location.X, pictureBox1.Location.Y - 2);
+                await Task.Delay(20);
+            }
+
+
+
+
+        }
+
+        private async void button3_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 50; i++)
+            {
+                pictureBox1.Location = new Point(pictureBox1.Location.X + 2, pictureBox1.Location.Y - 2);
+                await Task.Delay(20);
+            }
+            for (int i = 0; i < 50; i++)
+            {
+                pictureBox1.Location = new Point(pictureBox1.Location.X + 2, pictureBox1.Location.Y + 2);
+                await Task.Delay(20);
+            }
+            for (int i = 0; i < 100; i++)
+            {
+                pictureBox1.Location = new Point(pictureBox1.Location.X - 2, pictureBox1.Location.Y);
                 await Task.Delay(20);
             }
 
